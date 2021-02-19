@@ -1,0 +1,31 @@
+www.google.com.br/search?q=linux&hl=pt-BR
+
+Definições
+
+q = Parametro que representa uma query"consulta" (linux é o valor dessa query)
+hl = lingua da maquina host 
+
+
+HTTP suporta os seguintes verbos 
+GET
+POST
+PUT
+DELETE
+TRACE
+OPTIONS
+CONNECT
+HEAD
+
+
+os parametros no get tem que estar na URL (cabeçalho)
+
+
+Tipo post é mais usado para usuario, realizar logins e colocar senhas(os parametros vai no corpo da requisição)
+
+
+Grupos de Status HTTP (apenas o basico)
+•1xx - Informação
+•2xx - Sucesso
+•3xx - Redirecionamento
+•4xx - Erro no cliente
+•5xx - Erro no servidor 
